@@ -9,6 +9,7 @@ $breadcrumb_items = [
     ['url' => 'about.php', 'title' => 'About Us']
 ];
 
+// hello?
 // Include header
 include 'includes/header.php';
 ?>
