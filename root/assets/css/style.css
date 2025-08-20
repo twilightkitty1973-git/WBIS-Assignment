@@ -47,6 +47,34 @@ a {
 a:hover {
     color: #d92d53;
 }
+/* table style */
+table.rows {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+table.rows th, 
+table.rows td {
+  border: 1px solid #f8079c;
+  padding: 10px;
+  text-align: left;
+}
+
+table.rows th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+table.rows tr:nth-child(even) {
+  background-color: #ebd6e3;
+}
+
+table.rows tr:hover {
+  background-color: #f3c8e3;
+}
 
 /* Buttons */
 .btn {
